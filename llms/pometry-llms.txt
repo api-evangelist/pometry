@@ -1,0 +1,33 @@
+# Pometry
+
+> Pometry is AI infrastructure for large-scale transformation, used by tier-one financial institutions and government agencies. Pometry turns your disconnected data into live, organisational context — so people, models, and agents can spot risks, trace decisions, and predict change with confidence. It installs alongside your existing systems (cloud, on-premise, or air-gapped), maps your data to a temporal context model in weeks, and keeps every answer fully traceable to its source.
+
+## Platform
+
+- [Context Layer](https://www.pometry.com/platform/): Turns static, siloed data into a live temporal graph. Live context across disconnected systems, hybrid intelligence for deep analytics and agents, regulatory-grade trust with full provenance, and organisational memory that compounds over time.
+- [Toolkit](https://www.pometry.com/platform/toolkit/): Business, developer, data-science, and agent tools — natural-language querying, multiple languages/SDKs, 50+ temporal graph algorithms, and graph traversal as a tool call for any LLM.
+- [Under the Hood](https://www.pometry.com/platform/technical/): The temporal graph engine, built in Rust on Apache Arrow. Multi-terabyte scale, sub-second queries, disk-native storage, a ~10MB binary, and government-grade security (RBAC, SOC 2, data-in-place).
+- [Capabilities](https://www.pometry.com/platform/features/): The capabilities that make Institutional AI possible — real-time ingestion, point-in-time queries, entity resolution, multi-hop reasoning, traceable answers, and full data lineage.
+
+## Use Cases
+
+- [Project Risk](https://www.pometry.com/use-cases/#project-risk): Surface hidden dependencies, bottlenecks, and emerging programme risk in real time.
+- [Reporting](https://www.pometry.com/use-cases/#reporting): Full provenance, time-travel queries, and automated lineage for regulatory reporting.
+- [AML & FinCrime](https://www.pometry.com/use-cases/#aml): Temporal network analysis to detect financial crime and anomalous behaviour at scale.
+- [Knowledge Work](https://www.pometry.com/use-cases/#knowledge-work): Ground AI and agents in live organisational memory with NeuroSymbolic GraphRAG.
+- [Client Insight](https://www.pometry.com/use-cases/#client-insight): A living view of client relationships, surfacing hidden connections and opportunities.
+- [Data Analytics](https://www.pometry.com/use-cases/#data-analytics): Understand how entities and behaviour move and change over time.
+
+## Implementation
+
+- [How we work](https://www.pometry.com/platform/implementation/): Discovery to pilot to production, live on your data in as little as four weeks, supported by forward-deployed engineers.
+
+## Company
+
+- [About](https://www.pometry.com/company/): A team of network scientists and industry experts building AI infrastructure for the world's most complex organisations.
+- [Insights](https://www.pometry.com/insights/): Research, product news, and perspective on temporal graph intelligence.
+- [Contact](https://www.pometry.com/contact/): Request a demo or get in touch.
+
+## Optional
+
+- [Full content](https://www.pometry.com/llms-full.txt)

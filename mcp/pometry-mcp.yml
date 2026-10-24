@@ -1,0 +1,7 @@
+generated: '2026-10-24'
+method: none
+source: https://docs.pometry.com/v0.17/tools/list
+deployment:
+  mode: none
+  auth: none
+  verified: derived

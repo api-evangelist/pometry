@@ -1,25 +1,88 @@
 aid: pometry
+
 name: Pometry
-description: 'Pometry is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by crane-venture-partners) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.pometry.com/assets-v5/og-pometry.jpg?v=4
+
+description: Pometry provides institutional intelligence solutions, offering a library of tools that model organizational data across finance,
+  operations, and transformation initiatives. Their platform includes capabilities such as chat, explorer, toolkit, and memory, enabling enterprises
+  to build live models of how their organization works and derive actionable insights for programme delivery, technology optimisation, financial
+  reporting, and client intelligence.
+
 url: https://raw.githubusercontent.com/api-evangelist/pometry/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-24 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-24'
+
 modified: '2026-10-24'
+
 tags:
 - Company
-apis: []
+- Institutional-Intelligence
+- Analytics
+- Enterprise-Software
+- Platform
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- crane-venture-partners
+
 common:
+- type: Compliance
+  url: https://www.pometry.com/security/
+- type: LLMsTxt
+  url: llms/pometry-llms.txt
+- type: Hosts
+  url: hosts/pometry-hosts.yml
+- type: Vendors
+  url: vendors/pometry-vendors.yml
+- type: SignUp
+  url: https://www.pometry.com/platform/register/
+- type: Security
+  url: https://www.pometry.com/security/
+- type: ChangeLog
+  url: https://github.com/Pometry/Raphtory/releases
+- type: APIReference
+  url: https://docs.pometry.com/v0.17/docs/reference/api
+- type: GettingStarted
+  url: https://docs.pometry.com/v0.17/docs/getting-started/quickstart
+- type: TrustCenter
+  url: security/pometry-trust-center.yml
+- type: DomainSecurity
+  url: security/pometry-domain-security.yml
 - type: Website
   url: https://www.pometry.com/
+- type: Documentation
+  url: https://www.pometry.com/platform/toolkit/
+- type: PrivacyPolicy
+  url: https://www.pometry.com/privacy/
+- type: Support
+  url: https://www.pometry.com/contact/
+- type: Blog
+  url: https://www.pometry.com/insights/
+
+apis:
+- name: Pometry Platform Toolkit
+  description: Toolkit API documentation for Pometry platform.
+  humanURL: https://docs.pometry.com/v0.17/
+  baseURL: null
+  aid: pometry:pometry-platform-toolkit
+
+x-backed-by:
+- crane-venture-partners
+x-enrichment:
+  date: '2026-10-24'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
